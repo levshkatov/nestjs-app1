@@ -1,4 +1,4 @@
-Here is an untitled project that I made in the past. I removed configurations (leaving only interfaces), scripts from package.json, and some other vulnerable parts. So now it can only be observed. 
+Here is an untitled project (backend for mobile app + admin dashboard) that I made in the past. I removed configurations (leaving only interfaces), scripts from package.json, and some other vulnerable parts. So now it can only be observed. 
 
 The main purpose of this project is for technical interviews.
 
