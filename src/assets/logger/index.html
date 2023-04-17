@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Logs</title>
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link rel="stylesheet" href="./css/all.css" >
+  <script src="./js/index.js"></script>
+</head>
+
+<body>
+  
+  <div id="form">
+  <form id="getLogs">
+    <label for="offset">Offset</label>
+    <input type="number" name="offset" value="0">
+    <label for="limit">Limit (max 5000)</label>
+    <input type="number" name="limit" value="100">
+    <label for="include404">Include 404 errors</label>
+    <input id="include404" type="checkbox" name="include404">
+    <input type="button" id='clearBtn' value="CLEAR"></button>
+    <input type="submit" value="GET"></button>
+  </form>
+
+  <div id="updateTime"></div>
+
+  <div>
+    <label for="selectRows">Select rows</label>
+    <input id="selectRows" type="checkbox" name="selectRows">
+  </div>
+</div>
+<div id="wrapper">
+<div id="searchTable"></div>
+<div id="table"></div>
+</div>
+
+</body> 
+</html>

@@ -1,0 +1,26 @@
+{
+  "errors": {
+    "common": "Проверьте следующие поля"
+  },
+  "fields": {
+    "name": "Имя",
+    "birthdate": "Дата рождения",
+    "phone": "Номер телефона",
+    "email": "E-mail",
+    "refreshToken": "refreshToken",
+    "offsetUTC": "offsetUTC",
+    "code": "SMS-код",
+    "authCode": "Apple AuthCode",
+    "id": "ID",
+    "tag": "Tag",
+    "categoryId": "ID категории",
+    "randomOne": "randomOne",
+    "time": "Время",
+    "forceChangeChallenge": "forceChangeChallenge",
+    "content": "content",
+    "type": "Тип",
+    "forceChangeCourse": "forceChangeCourse",
+    "username": "Имя пользователя",
+    "password": "Пароль"
+  }
+}

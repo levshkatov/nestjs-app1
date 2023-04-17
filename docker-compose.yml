@@ -1,0 +1,25 @@
+version: '3'
+services:
+  db:
+    container_name: ${D_DB_NAME}
+    image: postgres:14
+    # restart: always
+    env_file: .env
+    volumes:
+    - ./pgdata:/var/lib/postgresql/pgdata
+    ports:
+      - '${D_DB_PORT}:5432'
+
+  app:
+    container_name: ${D_APP_NAME}
+    # restart: on-failure
+    build: .
+    env_file: .env
+    environment:
+     - 'NODE_ENV=${NODE_ENV}'
+    depends_on:
+      - db
+    ports:
+      - '${D_APP_PORT}:3000'
+
+  

@@ -1,0 +1,1 @@
+export const USER_COURSE_MAX_EXERCISES = 3;

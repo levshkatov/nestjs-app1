@@ -1,0 +1,7 @@
+const { join } = require('path');
+
+module.exports = {
+  config: join('dist', 'src', 'config', 'sequelize.js'),
+  'migrations-path': join('dist', 'src', 'orm', 'migrations'),
+  'seeders-path': join('dist', 'src', 'orm', 'seeders'),
+};

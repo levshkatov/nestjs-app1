@@ -1,0 +1,1 @@
+export const CELEBRITY_HABITS_LENGTH = 3;
